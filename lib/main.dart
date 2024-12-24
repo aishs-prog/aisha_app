@@ -149,7 +149,7 @@ class RegistrationForm extends StatelessWidget {
     return TextFormField(
       decoration: InputDecoration(
         labelText: label,
-        prefixIcon: Icon(icon, color: Colors.green[700]),
+        prefixIcon: Icon(icon, color: const Color(0xFF38933D)),
         border: OutlineInputBorder(
           borderRadius: BorderRadius.circular(10),
           borderSide: BorderSide(color: Colors.green[700]!),
